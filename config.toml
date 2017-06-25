@@ -1,0 +1,112 @@
+baseurl = "https://gobutanefree.com/"
+languageCode = "en-us"
+title = "beewix"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "beewix"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Why beewix"
+			portfolio = "Gallery"
+			contact   = "Contact"
+			instagram = "Instagram"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Natural. Impactful. Safe."
+		subtitle   = "Beewix is produced with the finest organic hemp and coated with beeswax cultivated from Apis Mellifera honey bees"
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "Made with Mother Nature in Mind"
+		description = "Honeybees are responsible for pollinating 80% of our crops. However, they're disappearing at an alarming rate. Last year was the worst case in recorded history for beekeepers who lost 44% of their colonies. What is even more alarming is some winter losses are normal but now we are losing colonies in summer which has never happened before and is cause for serious concern. - NW Honeybee Habitat Resoration. we refuse to sit back and watch our ecosystem fall apart, so for each beewix purchased, we pledge to donate $1.00 to the Honeybee Conservancy Foundation; a non-profit dedicated to help revitalize the bee population"
+	# buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "Why beewix?"
+
+        [[params.services.list]]
+            icon = "fa-shield"
+            color = "blue"
+            title = "Safe"
+            description = "Lighter fluid contents are unregulated. So when you smoke with a lighter's flame, you're inhaling butane, which destroys your motor neurons, and who knows what else."
+
+        [[params.services.list]]
+			icon = "fa-leaf"
+			color = "green-leaf"
+			title = "Organic"
+			description = "Completely Natural. No GMO's, no pesticides, no chlorine, no ethanethiol, no toxic chemicals of any kind. Strictly 100% organic hemp and beeswax."
+
+		[[params.services.list]]
+            icon = "fa-diamond"
+            color = "diamond"
+            title = "Quality"
+            description = "Hand-picked out of Eastern Europe- arguably the purest hemp wick origin in the world."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            color = "heart"
+            title = "Charitable"
+            description = "With each purchase, we donate towards revitalizing the bee population."
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Make the Switch to a Butane Free Lifestyle"
+
+		[params.aside.button]
+			text = "Purchase Beewix"
+			link = "https://bit.ly/beewix"
+
+	# Contact section
+	[params.contact]
+		headline = "Wholesale Inquiries"
+		description = ""
+		phone = ""
+		email = "contact@indigoconsulting.group"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
